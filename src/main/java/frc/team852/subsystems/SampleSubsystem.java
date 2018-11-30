@@ -5,7 +5,7 @@
 /* the project.                                                               */
 /*----------------------------------------------------------------------------*/
 
-package team852.subsystems;
+package frc.team852.subsystems;
 
 import edu.wpi.first.wpilibj.command.Subsystem;
 

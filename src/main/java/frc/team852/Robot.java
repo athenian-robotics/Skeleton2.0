@@ -5,15 +5,15 @@
 /* the project.                                                               */
 /*----------------------------------------------------------------------------*/
 
-package team852;
+package frc.team852;
 
 import edu.wpi.first.wpilibj.DriverStation;
 import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
-import team852.subsystems.DrivetrainSubsystem;
-import team852.subsystems.SampleSubsystem;
+import frc.team852.subsystems.DrivetrainSubsystem;
+import frc.team852.subsystems.SampleSubsystem;
 
 // TODO add PID Control
 // TODO add Triggers for Drivetrain?

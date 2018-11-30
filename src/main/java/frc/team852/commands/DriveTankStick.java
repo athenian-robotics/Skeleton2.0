@@ -1,7 +1,7 @@
-package team852.commands;
+package frc.team852.commands;
 import edu.wpi.first.wpilibj.command.Command;
-import team852.OI;
-import team852.Robot;
+import frc.team852.OI;
+import frc.team852.Robot;
 
 public class DriveTankStick extends Command {
 

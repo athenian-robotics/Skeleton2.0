@@ -1,8 +1,8 @@
-package team852.commands;
+package frc.team852.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-import team852.Robot;
+import frc.team852.Robot;
 
 /**
  * This entire command is specifically written for TANK DRIVE

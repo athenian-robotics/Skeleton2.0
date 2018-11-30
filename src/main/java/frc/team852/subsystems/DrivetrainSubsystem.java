@@ -1,12 +1,12 @@
-package team852.subsystems;
+package frc.team852.subsystems;
 
 import com.ctre.phoenix.motorcontrol.NeutralMode;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.drive.DifferentialDrive;
 
-import team852.RobotMap;
-import team852.commands.DriveChzStick;
-import team852.commands.DriveTankStick;
+import frc.team852.RobotMap;
+import frc.team852.commands.DriveChzStick;
+import frc.team852.commands.DriveTankStick;
 
 
 // control motor
@@ -59,7 +59,7 @@ public class DrivetrainSubsystem extends Subsystem {
 
     public void drive(double left, double right) {
         // drive based on input
-        this.robotDrive.tankDrive(left, right);
+        this.robotDrive.tankDrive(left/4, right/4);
     }
 
     private double sketch_exp(double input, double pow){

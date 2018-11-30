@@ -1,13 +1,13 @@
-package team852.commands;
+package frc.team852.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
-import team852.Robot;
+import frc.team852.Robot;
 
-public class ChangeToTank extends Command {
+public class ChangeToChz extends Command {
 
     private boolean activated;
 
-    public ChangeToTank() {
+    public ChangeToChz() {
         // Use requires() here to declare subsystem dependencies
         requires(Robot.drivetrain);
         this.activated = false;
@@ -15,7 +15,7 @@ public class ChangeToTank extends Command {
 
     @Override
     protected void execute() {
-        Robot.drivetrain.changeCommandMode(0);
+        Robot.drivetrain.changeCommandMode(1);
         this.activated = true;
     }
 
@@ -29,4 +29,3 @@ public class ChangeToTank extends Command {
         end();
     }
 }
-

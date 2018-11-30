@@ -1,8 +1,8 @@
-package team852.commandGroups;
+package frc.team852.commandGroups;
 
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
-import team852.commands.TimedDrive;
+import frc.team852.commands.TimedDrive;
 
 public class SampleAuto extends CommandGroup {
     public SampleAuto(double power) {
