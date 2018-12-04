@@ -22,7 +22,7 @@ public class SampleAuto extends CommandGroup {
         this.addSequential(new TimedDrive("forward", 1.5));
 
         // turn backward and go forward
-        // this.addSequential(new TimedDrive("backward"));
+        this.addSequential(new TimedDrive("backward"));
         // this.addSequential(new TimedDrive("forward", 1.5));
 
     }
